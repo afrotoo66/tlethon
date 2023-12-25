@@ -3,7 +3,7 @@
   "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/83ee584aef1c4db1d9597.jpg",
   "keywords": ["plugin", "modular", "productivity"],
-  "repository": "https://github.com/jepthoniq/lMl10l/",
+  "repository": "https://github.com/afrotoo66/tlethon/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -55,7 +55,7 @@
   }],
   "buildpacks": [
     {
-      "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/afrotoo66/heroku-buildpack-ffmpeg-latest"
     },
     {
       "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
