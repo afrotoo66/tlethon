@@ -1,7 +1,7 @@
 FROM afrotoo66/tlethon2:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/afrotoo66/WWWL5.git /root/WWWL5
+RUN git clone https://github.com/afrotoo66/tlethon2.git /root/WWWL5
 #working directory 
 WORKDIR /root/WWWL5
 
