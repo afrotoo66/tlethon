@@ -1,4 +1,4 @@
-FROM afrotoo66/tlethon2:slim-buster
+FROM afrotoo66/Soursafrotoo:slim-buster
 
 #clonning repo 
 RUN git clone https://github.com/afrotoo66/Soursafrotoo /root/Soursafrotoo
