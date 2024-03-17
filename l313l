@@ -44,8 +44,8 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/afrotoo66/WWWL5"
-ACTIVE_BRANCH_NAME = "HuRe"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/afrotoo66/Soursafrotoo"
+ACTIVE_BRANCH_NAME = "Soursafrotoo"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
@@ -58,7 +58,7 @@ _run_cat_git() {
     $(_run_python_code 'from git import Repo
 import sys
 OFFICIAL_UPSTREAM_REPO="'$repolink'"
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "HuRe"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "Soursafrotoo"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
@@ -68,7 +68,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="JoKeRUB.zip"
+    zippath="Soursafrotoo.zip"
     echo "جاري تنزيل اكواد السورس "
     wget -q $(_get_ziplink) -O "$zippath"
     echo " تفريغ البيانات "
@@ -87,7 +87,7 @@ _set_bot () {
     echo "
 
     "
-    python3 -m JoKeRUB
+    python3 -m Soursafrotoo
 }
 
 _set_bot
